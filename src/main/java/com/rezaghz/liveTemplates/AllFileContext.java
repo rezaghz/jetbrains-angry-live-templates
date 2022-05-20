@@ -16,5 +16,4 @@ public class AllFileContext extends TemplateContextType {
   public boolean isInContext(@NotNull TemplateActionContext templateActionContext) {
     return true;
   }
-
 }
