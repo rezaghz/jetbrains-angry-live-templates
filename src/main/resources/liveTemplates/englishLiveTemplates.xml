@@ -1,0 +1,77 @@
+<templateSet group="AngryLiveTemplates">
+    <!--You can insert your live templates below structure-->
+    <!--ALLFILES CONTEXT-->
+    <template name="fu"
+              value="fuck you$END$"
+              description="fuck you TEXT"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+    <template name="FU"
+              value="FUCK YOU$END$"
+              description="FUCK YOU TEXT"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+
+    <template name="fub"
+              value="fuck you bitch$END$"
+              description="fuck you bitch"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+
+    <template name="FUB"
+              value="FUCK YOU BITCH$END$"
+              description="FUCK YOU BITCH"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+
+    <!--JAVASCRIPT CONTEXT-->
+    <template name="cfu"
+              value="console.log('fuck you');$END$"
+              description="console.log('fuck you');"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="JSFILES" value="true"/>
+        </context>
+    </template>
+
+
+    <!--PHP CONTEXT-->
+    <template name="efu"
+              value="echo 'fuck you';$END$"
+              description="echo 'fuck you';"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="PHPFILES" value="true"/>
+        </context>
+    </template>
+
+    <!--LARAVEL CONTEXT-->
+    <template name="dkk"
+              value="dd('fuck you');$END$"
+              description="dd('fuck you');"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="LARAVELFILES" value="true"/>
+        </context>
+    </template>
+
+</templateSet>
