@@ -9,9 +9,13 @@
     ]]></description>
 
     <depends>com.intellij.modules.lang</depends>
+    <!--Add Your live templates of languages-->
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/persianLiveTemplates.xml"/>
         <liveTemplateContext implementation="com.rezaghz.liveTemplates.AllFileContext"/>
+        <liveTemplateContext implementation="com.rezaghz.liveTemplates.JavaScriptContext"/>
+        <liveTemplateContext implementation="com.rezaghz.liveTemplates.PhpContext"/>
+        <liveTemplateContext implementation="com.rezaghz.liveTemplates.LaravelContext"/>
     </extensions>
 
 </idea-plugin>

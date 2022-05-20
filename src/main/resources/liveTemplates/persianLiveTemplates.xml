@@ -1,17 +1,17 @@
 <templateSet group="AngryLiveTemplates">
-    <template name="{"
-              value="[$TEXT$]($LINK$)$END$"
-              description="SDK: New link reference"
+    <!--لایو تمپلیت ها تو میتونی طبق استراکچر زیر وارد کنی -->
+    <!--p aval name ha be manaye farsi boodan oone-->
+    <template name="kk"
+              value="kirekhar$END$"
+              description="Kire Khar TEXT"
               toReformat="false"
               toShortenFQNames="false">
-        <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true"/>
-        <variable name="LINK" expression="complete()" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="ALLFILES" value="true"/>
         </context>
     </template>
-    <template name="kk"
-              value="kirekhar$END$"
+    <template name="pkk"
+              value="کیرخر$END$"
               description="Kirekhar"
               toReformat="false"
               toShortenFQNames="false">
@@ -19,9 +19,9 @@
             <option name="ALLFILES" value="true"/>
         </context>
     </template>
-    <template name="mc"
-              value="$TITLE$"
-              description="SDK: Convert to title case"
+    <template name="pktd"
+              value="kiram too in davari $END$"
+              description="Kiram too in davari !"
               toReformat="true"
               toShortenFQNames="false">
         <variable name="TITLE" defaultValue="the quick brown fox" alwaysStopAt="true"/>
@@ -29,4 +29,37 @@
             <option name="ALLFILES" value="true"/>
         </context>
     </template>
+    <template name="pktd"
+              value="کیرم تو این داوری $END$"
+              description="Kiram too in davari !"
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="TITLE" defaultValue="the quick brown fox" alwaysStopAt="true"/>
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+    <template name="ktk"
+              value="kir too karfarma $END$"
+              description="Kir too karfarma !"
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="TITLE" defaultValue="the quick brown fox" alwaysStopAt="true"/>
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+    <template name="pktk"
+              value="کیر تو کارفرما $END$"
+              description="Kir too karfarma !"
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="TITLE" defaultValue="the quick brown fox" alwaysStopAt="true"/>
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+
+
+
 </templateSet>
