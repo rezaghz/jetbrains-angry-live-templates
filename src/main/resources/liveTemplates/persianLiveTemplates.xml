@@ -1,4 +1,4 @@
-<templateSet group="AngryText">
+<templateSet group="AngryLiveTemplates">
     <template name="{"
               value="[$TEXT$]($LINK$)$END$"
               description="SDK: New link reference"

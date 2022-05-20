@@ -6,10 +6,10 @@ import com.intellij.codeInsight.template.TemplateActionContext;
 import com.intellij.codeInsight.template.TemplateContextType;
 import org.jetbrains.annotations.NotNull;
 
-public class MarkdownContext extends TemplateContextType {
+public class AllFileContext extends TemplateContextType {
 
-  protected MarkdownContext() {
-    super("ALLFILES", "AngryText");
+  protected AllFileContext() {
+    super("ALLFILES", "AngryLiveTemplates");
   }
 
   @Override

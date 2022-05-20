@@ -10,10 +10,8 @@
 
     <depends>com.intellij.modules.lang</depends>
     <extensions defaultExtensionNs="com.intellij">
-        <defaultLiveTemplates file="/liveTemplates/Markdown.xml"/>
-        <liveTemplateContext implementation="com.rezaghz.liveTemplates.MarkdownContext"/>
+        <defaultLiveTemplates file="/liveTemplates/persianLiveTemplates.xml"/>
+        <liveTemplateContext implementation="com.rezaghz.liveTemplates.AllFileContext"/>
     </extensions>
-        <!--<actions>
-        &lt;!&ndash; Add your actions here &ndash;&gt;
-    </actions>-->
+
 </idea-plugin>
