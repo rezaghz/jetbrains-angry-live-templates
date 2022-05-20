@@ -2,7 +2,7 @@
     <id>com.rezaghz.angry-live-templates</id>
     <name>Angry Live Templates</name>
     <vendor email="rezaghasemzadeh1@gmail.com" url="https://rezaghz.com">rezaghz.com</vendor>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <description><![CDATA[
     Angry Live Templates for Angry Developers 🤯😂 <br>
     Live templates of all kinds of curses in all languages to reduce the workload during debugging 😒
@@ -18,5 +18,15 @@
         <liveTemplateContext implementation="com.rezaghz.liveTemplates.PhpContext"/>
         <liveTemplateContext implementation="com.rezaghz.liveTemplates.LaravelContext"/>
     </extensions>
+
+    <change-notes>
+        <![CDATA[
+      <ul>
+        <li><b>1.0.2</b> Fixed bugs.</li>
+        <li><b>1.0.1</b> Ready for upload on hub</li>
+        <li><b>1.0.0</b> Initial Version .</li>
+      </ul>
+    ]]>
+    </change-notes>
 
 </idea-plugin>

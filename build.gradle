@@ -5,7 +5,7 @@ plugins {
 
 
 group 'com.rezaghz.angry-live-templates'
-version '1.0.1'
+version '1.0.2'
 
 repositories {
     mavenCentral()
@@ -27,6 +27,6 @@ intellij {
 }
 patchPluginXml {
     changeNotes = """
-      1.0.1 Release.<br>
+      1.0.2 Release.<br>
       <em></em>"""
 }
