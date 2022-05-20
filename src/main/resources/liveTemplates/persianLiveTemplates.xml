@@ -1,6 +1,8 @@
 <templateSet group="AngryLiveTemplates">
     <!--لایو تمپلیت ها تو میتونی طبق استراکچر زیر وارد کنی -->
     <!--p aval name ha be manaye farsi boodan oone-->
+
+    <!--ALLFILES CONTEXT-->
     <template name="kk"
               value="kirekhar$END$"
               description="Kire Khar TEXT"
@@ -60,6 +62,38 @@
         </context>
     </template>
 
+    <!--JAVASCRIPT CONTEXT-->
+    <template name="ckk"
+              value="console.log('kirekhar');$END$"
+              description="console.log('kirekhar');"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="JSFILES" value="true"/>
+        </context>
+    </template>
 
+
+    <!--PHP CONTEXT-->
+    <template name="ekk"
+              value="echo 'kirekhar';$END$"
+              description="echo 'kirekhar';"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="PHPFILES" value="true"/>
+        </context>
+    </template>
+
+    <!--LARAVEL CONTEXT-->
+    <template name="dkk"
+              value="dd('kirekhar');$END$"
+              description="dd('kirekhar');"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="LARAVELFILES" value="true"/>
+        </context>
+    </template>
 
 </templateSet>
