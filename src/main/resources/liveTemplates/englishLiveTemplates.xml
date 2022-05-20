@@ -10,6 +10,27 @@
             <option name="ALLFILES" value="true"/>
         </context>
     </template>
+
+    <template name="smd"
+              value="suck my dick$END$"
+              description="sick my dick"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+
+    <template name="emp"
+              value="eat my pussy$END$"
+              description="eat my pussy"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+
     <template name="FU"
               value="FUCK YOU$END$"
               description="FUCK YOU TEXT"
