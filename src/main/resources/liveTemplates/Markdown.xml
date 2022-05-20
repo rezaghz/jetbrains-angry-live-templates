@@ -1,0 +1,32 @@
+<templateSet group="AngryText">
+    <template name="{"
+              value="[$TEXT$]($LINK$)$END$"
+              description="SDK: New link reference"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="LINK" expression="complete()" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+    <template name="kk"
+              value="kirekhar$END$"
+              description="Kirekhar"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+    <template name="mc"
+              value="$TITLE$"
+              description="SDK: Convert to title case"
+              toReformat="true"
+              toShortenFQNames="false">
+        <variable name="TITLE" defaultValue="the quick brown fox" alwaysStopAt="true"/>
+        <context>
+            <option name="ALLFILES" value="true"/>
+        </context>
+    </template>
+</templateSet>

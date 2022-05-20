@@ -1,22 +1,19 @@
 <idea-plugin>
-    <id>com.rezaghz.angry-text.angry-text</id>
-    <name>Plugin display name here</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
-
+    <id>com.rezaghz.angry-live-templates</id>
+    <name>Angry Live Templates</name>
+    <vendor email="rezaghasemzadeh1@gmail.com" url="https://rezaghz.com">rezaghz.com</vendor>
+    <version>1.0.0</version>
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    Angry Live Templates for Angry Developers 🤯😂 <br>
+    Live templates of all kinds of curses in all languages to reduce the workload during debugging 😒
     ]]></description>
 
-    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
-         on how to target different products -->
-    <depends>com.intellij.modules.platform</depends>
-
+    <depends>com.intellij.modules.lang</depends>
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <defaultLiveTemplates file="/liveTemplates/Markdown.xml"/>
+        <liveTemplateContext implementation="com.rezaghz.liveTemplates.MarkdownContext"/>
     </extensions>
-
-    <actions>
-        <!-- Add your actions here -->
-    </actions>
+        <!--<actions>
+        &lt;!&ndash; Add your actions here &ndash;&gt;
+    </actions>-->
 </idea-plugin>
