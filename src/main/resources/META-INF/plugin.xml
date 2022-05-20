@@ -12,6 +12,7 @@
     <!--Add Your live templates of languages-->
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/persianLiveTemplates.xml"/>
+        <defaultLiveTemplates file="/liveTemplates/englishLiveTemplates.xml"/>
         <liveTemplateContext implementation="com.rezaghz.liveTemplates.AllFileContext"/>
         <liveTemplateContext implementation="com.rezaghz.liveTemplates.JavaScriptContext"/>
         <liveTemplateContext implementation="com.rezaghz.liveTemplates.PhpContext"/>

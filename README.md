@@ -1,2 +1,2 @@
-# Jetbrains Angry Live Templates
+# Jetbrains Angry Live Templates 🤯
 
