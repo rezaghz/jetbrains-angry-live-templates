@@ -13,7 +13,7 @@
 
     <template name="smd"
               value="suck my dick$END$"
-              description="sick my dick"
+              description="suck my dick"
               toReformat="false"
               toShortenFQNames="false">
         <context>
@@ -85,7 +85,7 @@
     </template>
 
     <!--LARAVEL CONTEXT-->
-    <template name="dkk"
+    <template name="dfu"
               value="dd('fuck you');$END$"
               description="dd('fuck you');"
               toReformat="false"

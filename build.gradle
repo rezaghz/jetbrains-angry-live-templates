@@ -5,7 +5,7 @@ plugins {
 
 
 group 'com.rezaghz.angry-live-templates'
-version '1.0.3'
+version '1.0.4'
 
 repositories {
     mavenCentral()
@@ -23,10 +23,10 @@ publishPlugin {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2021.1'
+    version = '2020.1'
 }
 patchPluginXml {
     changeNotes = """
-      1.0.3 Release.<br>
+      1.0.4 Release.<br>
       <em></em>"""
 }

@@ -2,10 +2,16 @@
     <id>com.rezaghz.angry-live-templates</id>
     <name>Angry Live Templates</name>
     <vendor email="rezaghasemzadeh1@gmail.com" url="https://rezaghz.com">rezaghz.com</vendor>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <description><![CDATA[
-    Angry Live Templates for Angry Developers 🤯😂 <br>
-    Live templates of all kinds of curses in all languages to reduce the workload during debugging 😒
+    Angry Live Templates for Angry Developers 🤯 <br/><br/>
+    Live templates of all kinds of curses in all languages to reduce the workload during debugging 😒  <br/><br/>
+
+    For version 2020.1 and above.
+    <br/><br/>
+
+     <a href="https://github.com/rezaghz/jetbrains-angry-live-templatesissues">Report an issue</a> | <a href="https://github.com/rezaghz/jetbrains-angry-live-templates">On GitHub</a>
+  <br/><br/><br/>
     ]]></description>
 
     <depends>com.intellij.modules.lang</depends>
@@ -22,6 +28,8 @@
     <change-notes>
         <![CDATA[
       <ul>
+        <li><b>1.0.4</b> Support Jetbrains Products 2020</li>
+        <li><b>1.0.3</b> Support Jetbrains Products 2021</li>
         <li><b>1.0.2</b> Fixed bugs.</li>
         <li><b>1.0.1</b> Ready for upload on hub</li>
         <li><b>1.0.0</b> Initial Version .</li>
