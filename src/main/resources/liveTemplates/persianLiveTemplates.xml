@@ -21,42 +21,38 @@
             <option name="ALLFILES" value="true"/>
         </context>
     </template>
-    <template name="pktd"
+    <template name="ktd"
               value="kiram too in davari $END$"
-              description="Kiram too in davari !"
+              description="kiram too in davari"
               toReformat="true"
               toShortenFQNames="false">
-        <variable name="TITLE" defaultValue="the quick brown fox" alwaysStopAt="true"/>
         <context>
             <option name="ALLFILES" value="true"/>
         </context>
     </template>
     <template name="pktd"
               value="کیرم تو این داوری $END$"
-              description="Kiram too in davari !"
+              description="کیرم تو این داوری"
               toReformat="true"
               toShortenFQNames="false">
-        <variable name="TITLE" defaultValue="the quick brown fox" alwaysStopAt="true"/>
         <context>
             <option name="ALLFILES" value="true"/>
         </context>
     </template>
     <template name="ktk"
               value="kir too karfarma $END$"
-              description="Kir too karfarma !"
+              description="kir too karfarma"
               toReformat="true"
               toShortenFQNames="false">
-        <variable name="TITLE" defaultValue="the quick brown fox" alwaysStopAt="true"/>
         <context>
             <option name="ALLFILES" value="true"/>
         </context>
     </template>
     <template name="pktk"
               value="کیر تو کارفرما $END$"
-              description="Kir too karfarma !"
+              description="کیر تو کارفرما"
               toReformat="true"
               toShortenFQNames="false">
-        <variable name="TITLE" defaultValue="the quick brown fox" alwaysStopAt="true"/>
         <context>
             <option name="ALLFILES" value="true"/>
         </context>
