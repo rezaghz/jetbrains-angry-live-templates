@@ -29,6 +29,6 @@ patchPluginXml {
       1.0.5 Release.<br>
       <em></em>"""
     version.set("${project.version}")
-    sinceBuild.set("20.*")
+    sinceBuild.set("201.*")
     untilBuild.set("221.*")
 }
