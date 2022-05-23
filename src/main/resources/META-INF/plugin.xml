@@ -2,7 +2,7 @@
     <id>com.rezaghz.angry-live-templates</id>
     <name>Angry Live Templates</name>
     <vendor email="rezaghasemzadeh1@gmail.com" url="https://rezaghz.com">rezaghz.com</vendor>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <description><![CDATA[
     Angry Live Templates for Angry Developers 🤯 <br/><br/>
     Live templates of all kinds of curses in all languages to reduce the workload during debugging 😒  <br/><br/>
@@ -18,7 +18,14 @@
   <img src="https://github.com/rezaghz/jetbrains-angry-live-templates/raw/master/docs/screenshots/scr-3.gif?raw=true" border="0" width="400" alt="screenshot">
   <br/>
  <br/><br/>
-     <a href="https://github.com/rezaghz/jetbrains-angry-live-templatesissues">Report an issue</a> | <a href="https://github.com/rezaghz/jetbrains-angry-live-templates">On GitHub</a>| <a href="https://github.com/rezaghz/jetbrains-angry-live-templates/blob/master/docs/templates/">Show Curses</a>
+     <a href="https://github.com/rezaghz/jetbrains-angry-live-templatesissues">Report an issue</a> | <a href="https://github.com/rezaghz/jetbrains-angry-live-templates">On GitHub</a>
+     <br/><br/><br/>
+
+     <h3>List Curses </h3>
+     <br>
+     <a href="https://github.com/rezaghz/jetbrains-angry-live-templates/blob/master/docs/templates/english.md">Show List Live Templates of English Curses</a>
+     </br>
+     <a href="https://github.com/rezaghz/jetbrains-angry-live-templates/blob/master/docs/templates/persian.md">Show List Live Templates of Persian Curses</a>
   <br/><br/><br/>
     ]]></description>
 
@@ -36,6 +43,7 @@
     <change-notes>
         <![CDATA[
       <ul>
+        <li><b>1.0.5</b> Support All Jetbrains Products</li>
         <li><b>1.0.4</b> Fix Bugs.</li>
         <li><b>1.0.3</b> Support Jetbrains Products 2021</li>
         <li><b>1.0.2</b> Fixed bugs.</li>

@@ -5,7 +5,7 @@ plugins {
 
 
 group 'com.rezaghz.angry-live-templates'
-version '1.0.4'
+version '1.0.5'
 
 repositories {
     mavenCentral()
@@ -21,12 +21,14 @@ publishPlugin {
     token.set(System.getenv("PUBLISH_TOKEN"))
 }
 
-// See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
     version = '2021.1'
 }
 patchPluginXml {
     changeNotes = """
-      1.0.4 Release.<br>
+      1.0.5 Release.<br>
       <em></em>"""
+    version.set("${project.version}")
+    sinceBuild.set("20.*")
+    untilBuild.set("221.*")
 }
